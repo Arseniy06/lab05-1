@@ -36,7 +36,7 @@ $ git remote add origin https://github.com/${GITHUB_USERNAME}/lab05
 ```sh
 $ mkdir third-party
 $ git submodule add https://github.com/google/googletest third-party/gtest
-$ cd third-party/gtest && git checkout release-1.8.1 && cd ../..
+$ cd third-party/gtest && git checkout release-1.16.0 && cd ../..
 $ git add third-party/gtest
 $ git commit -m"added gtest framework"
 ```
